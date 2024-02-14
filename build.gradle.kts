@@ -193,7 +193,7 @@ tasks {
         archiveClassifier.set("")
     }
 
-    compileJava.get().dependsOn(clean)
+    //compileJava.get().dependsOn(clean)
     build.get().dependsOn(shadowJar)
     build.get().dependsOn(publishToMavenLocal)
 }
